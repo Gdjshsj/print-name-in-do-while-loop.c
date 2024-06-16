@@ -1,2 +1,11 @@
-# print-name-in-do-while-loop.c
-print a name using do while loop
+ #include<stdio.h>
+int main()
+{
+    int i=1;
+    do
+    {
+        printf("sai\n");
+        i++;
+    }
+    while(i>3);
+}
